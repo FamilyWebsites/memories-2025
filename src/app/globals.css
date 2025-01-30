@@ -1,0 +1,28 @@
+.image-gallery {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.image-gallery > div {
+    columns: 5;
+    gap: 1.25rem;
+    padding-top: 1.25rem;
+}
+.image-gallery img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1.25rem;
+}
+
+@media (max-width:48rem) {
+    .image-gallery > div {
+        columns: 3;
+    }
+}
+
+@media (max-width:32rem) {
+    .image-gallery > div {
+        columns: 2;
+    }
+}
