@@ -29,22 +29,13 @@ const Gallery = ({ images, repo }) => {
 	// Fetch the list of repositories for static paths
 	export async function getStaticPaths() {
 	  const repos = [
-		'Shreya-s-Farwell',
-		'navratri-2024',
-		'Aditi-With-Her-Friends-Stree-2',
-		'2024-Navratri-Dashera-Mandli',
-		'2024-Navratri-Day-8',
-		'2024-Navratri-Day-5',
-		'2024-Navratri-Day-4',
-		'2024-Merriage-photos-2',
-		'2024-Vasu-birthday',
-		'2024-Navratri-Day-1',
-		'2024-Navratri-Edited-Photos',
-		'2024-Navratri-Day-9',
-		'2024-Navratri-Day-6',
-		'2024-Navratri-Day-5-Original',
-		'2024-Shreyas-birthday-and-my-first-day-at-TR',
-		'2024-Saputara-Trip'
+		'Darshna-AI-Generated',
+		'Manalis-Merriage',
+		'Hungrito-food-fest-7.0',
+		'Binalben-na-Marriage',
+		'Manjukaki-Harikaka-50th-anniversary',
+		'KD-Birthday',
+		'Heritage-walk'
 	];
 
 	const paths = repos.map(repo => ({ params: { repo } }));
